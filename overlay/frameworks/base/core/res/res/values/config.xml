@@ -628,4 +628,7 @@
 
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+    <!-- Disable Navbar by default -->
+    <bool name="config_defaultToNavigationBar">false</bool>
 </resources>
