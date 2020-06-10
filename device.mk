@@ -99,7 +99,8 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libqcompostprocbundle
+    libqcompostprocbundle \
+    tinymix
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
@@ -131,7 +132,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     camera.msm8953 \
     libmm-qcamera \
-    libshim_camera \
     Snap
 
 # Consumerir
@@ -380,8 +380,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    vndk_package \
-    libstdc++.vendor
+    vndk-sp
 
 # VR
 PRODUCT_PACKAGES += \
